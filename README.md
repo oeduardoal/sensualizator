@@ -10,6 +10,20 @@
 
 ## Table of Contents
 
+- [Installation](#installation)
+  - [Node](#node)
+  - [CLI](#cli)
+  - [Browser](#browser)
+- [Usage](#usage)
+  - [Node](#node-1)
+    - [API](#api)
+  - [CLI](#cli-1)
+    - [Options](#options)
+  - [Browser](#browser-1)
+- [Motivation](#motivation)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Installation
 
 Make sure you have the main dependencies to run this project:
