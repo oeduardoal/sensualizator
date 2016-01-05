@@ -106,3 +106,15 @@ sensualizator(src, dest, filter, ratio);
 1. ¯\_(ツ)_/¯.
 
   <img alt="Because we can" src="https://media.giphy.com/media/GxjJLMMWLOTRK/giphy.gif" width="400" />
+
+## Contributing
+
+Contributions are very welcome! If you'd like to contribute, these
+[guidelines](CONTRIBUTING.md) may help you.
+
+## License
+
+[sensualizator](https://github.com/cicerohen/sensualizator) is distributed under the
+MIT License, available in this repository. All contributions are assumed to be also licensed under
+the MIT License.
+
