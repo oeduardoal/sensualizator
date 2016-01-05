@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Sensualize your pics with awesome DEV I/O members' sexy - *or not* - image filters.
+  Sensualize your pics with awesome DEV I/O members' sexy - or not - image filters.
 </p>
 
 ## Table of Contents
@@ -83,7 +83,7 @@ sensualizator(src, dest, filter, ratio);
 #### Options
 
 - `$ sensualizator --src --dest --filter --ratio)`
-    - **Description**: Sensualizes the desired pic following the API the [described above]().
+    - **Description**: Sensualizes the desired pic following the API the [described above](#api).
 
 - `$ sensualizator --help`
     - **Description**: Shows some info on how to use it.
@@ -103,7 +103,7 @@ sensualizator(src, dest, filter, ratio);
 
   ![The original inspiration](screenshot.png)
 
-1. ¯\_(ツ)_/¯.
+1. ¯\_(ツ)_/¯
 
   <img alt="Because we can" src="https://media.giphy.com/media/GxjJLMMWLOTRK/giphy.gif" width="400" />
 
