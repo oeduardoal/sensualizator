@@ -94,3 +94,15 @@ sensualizator(src, dest, filter, ratio);
 ### Browser
 
 > Relax, it'll soon be available.
+
+## Motivation
+
+**Why this project?** Well, two reasons:
+
+1. [mabrasil](https://www.github.com/mabrasil)'s profile picture.
+
+  ![The original inspiration](screenshot.png)
+
+1. ¯\_(ツ)_/¯.
+
+  <img alt="Because we can" src="https://media.giphy.com/media/GxjJLMMWLOTRK/giphy.gif" width="400" />
