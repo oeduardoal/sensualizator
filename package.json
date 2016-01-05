@@ -1,0 +1,64 @@
+{
+  "name": "sensualizator",
+  "version": "0.0.0",
+  "description": "Sensualize your pics with awesome DEV I/O members' sexy - or not - image filters.",
+  "homepage": "https://github.com/cicerohen/sensualizator",
+  "author": {
+    "name": "Cícero Viana",
+    "email": "cicerohen@gmail.com",
+    "url": "https://github.com/cicerohen"
+  },
+  "contributors": [
+    {
+      "name": "Cícero Viana",
+      "email": "cicerohen@gmail.com",
+      "url": "https://github.com/cicerohen"
+    },
+    {
+      "name": "Matheus Brasil",
+      "email": "matheus.brasil10@gmail.com",
+      "url": "https://github.com/mabrasil"
+    }
+  ],
+  "bin": {
+  "module-name": "./bin/module-name"
+},
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "sensualize",
+    "DEV I/O",
+    "pictures",
+    "photos"
+  ],
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "babel-eslint": "^4.1.6",
+    "eslint-plugin-babel": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "del": "^2.0.2",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "https://github.com/cicerohen/sensualizator.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  }
+}
