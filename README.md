@@ -49,6 +49,12 @@ $ npm install sensualizator -g
 
 ## Usage
 
+> **Note on the Stack**: For now this module just abstracts some command line
+processing work to invoke [ImageMagicks' composite command ](http://www.imagemagick.org/script/composite.php).
+*In a near future*, we intend to use some wrapper around [GraphicsMagick](http://www.graphicsmagick.org/)
+or [ImageMagick](http://www.imagemagick.org/) for Node, e.g. [node-imagemagick](https://github.com/yourdeveloper/node-imagemagick),
+[node-imagemagick-native](https://github.com/elad/node-imagemagick-native), [node-watermarker-native](https://github.com/vishvish/node-watermarker-native) or [gm](https://github.com/aheckmann/gm).
+
 ### Node
 
 ```js
