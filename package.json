@@ -21,8 +21,8 @@
     }
   ],
   "bin": {
-  "module-name": "./bin/module-name"
-},
+    "module-name": "./bin/module-name"
+  },
   "files": [
     "dist"
   ],
@@ -33,32 +33,17 @@
     "pictures",
     "photos"
   ],
-  "devDependencies": {
-    "eslint-config-xo-space": "^0.7.0",
-    "babel-eslint": "^4.1.6",
-    "eslint-plugin-babel": "^3.0.0",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.10.3",
-    "gulp-mocha": "^2.0.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0",
-    "gulp-coveralls": "^0.1.0",
-    "gulp-babel": "^5.1.0",
-    "del": "^2.0.2",
-    "babel-core": "^5.5.0",
-    "isparta": "^3.0.3"
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.3"
   },
-  "eslintConfig": {
-    "extends": "xo-space/esnext",
-    "env": {
-      "mocha": true
-    }
+  "devDependencies": {
+    "LiveScript": "^1.4.0"
   },
   "repository": "https://github.com/cicerohen/sensualizator.git",
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "setup": "npm install -g livescript && npm install",
+    "compile": "lsc --no-header -b -c -o lib src",
+    "test": "",
+    "test:report": ""
   }
 }
